@@ -19,6 +19,13 @@ A new  preventative aides drug (triUmpsal) is under test in clinical trials. Con
 
 # Methods
 
+I need to use a filter command form the helper cheat sheet. The filter to get the data out of triUmp that is comprise of drug users. I will proceed to do this in the next set of codes.
+
+```{r}
+DRUGUSR<-filter(triUmp,DrugUser== "yes")
+```
+
+
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method. Discuss what data manipulations may be needed for example subsetting or other binning procedures and what sort of graphical displays and inferential tools will be used!-->
 
 # Results
